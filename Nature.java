@@ -12,8 +12,7 @@ public class Nature {
         pingou.getOut();
 
         Eagle hawkeye = new Eagle("Hawkeye");
-        // TODO : uncomment the following code in order to test it
-        /*
+        // OK : uncomment the following code in order to test it
         hawkeye.takeOff();
         hawkeye.ascend(120);
         hawkeye.ascend(30);
@@ -22,6 +21,24 @@ public class Nature {
         hawkeye.land();
         hawkeye.descend(9);
         hawkeye.land();
-        */
     }
 }
+
+/*
+ * Résultat dans le terminal :
+ * Pingou dives into the water.
+ * Pingou swims downward, depths : 3
+ * Pingou swims upward, depths : 2
+ * Pingou swims downward, depths : 6
+ * Pingou swims upward, depths : 1
+ * Pingou swims upward, depths : 0
+ * Pingou gets out of the water.
+ * Hawkeye takes off in the sky.
+ * Hawkeye flies upward, altitude: 120
+ * Hawkeye flies upward, altitude: 150
+ * Hawkeye glides into the air.
+ * Hawkeye flies downward, altitude: 10
+ * Hawkeye is too high, it can't land.
+ * Hawkeye flies downward, altitude: 1
+ * Hawkeye lands on the ground.
+ */
